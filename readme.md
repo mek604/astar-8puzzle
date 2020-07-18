@@ -2,14 +2,14 @@
 ### for solving 8-puzzle problem
 
 ### The initial state is:
-7 4 5
-2 * 6
-8 3 1
+7 4 5 <br>
+2 * 6 <br>
+8 3 1 <br>
 
 ### The goal state is
-1 2 3
-4 5 6
-7 8 *
+1 2 3 <br>
+4 5 6 <br>
+7 8 * <br>
 
 ### Usage:
 ```python node_a8.py```
