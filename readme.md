@@ -16,4 +16,4 @@
 
 + The program prints each path of expansion until the goal state is found
 + Then it prints the optimal path in to reach the goal state
-
++ It outputs the algorithm to console as well as files ```optimal.txt``` and ```expansion.txt```
