@@ -1,8 +1,6 @@
 # A* Search Algorithm to solve 8-Puzzle problem
 # Author: Mek Obchey
-# in node_a8.py, calculating the heuristic cost with 
-# manhattan distance is much much faster than calculating with
-# tiles differences
+# using the heuristic cost of manhattan distance + tiles differences
 
 
 from heapq import *

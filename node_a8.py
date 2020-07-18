@@ -69,7 +69,6 @@ class Node:
 
 	# the implementation of this function is specifically for
 	# goal state = "1 2 3 4 5 6 7 8 *"
-	# mismatch heuristic is very slow!!
 	def calculateCost(self, goal):
 		hcost = 0
 		n = self.size
@@ -77,8 +76,8 @@ class Node:
 			if entry != "*":
 				val = int(entry) # incase board values are still interpreted as strings
 				# -------------- mismatches heuristic-----------------
-				# if val != goal.board[i]:
-				# 	hcost += 1
+				if val != goal.board[i]:
+					hcost += 1
 				# -------------- manhattan heuristic -----------------
 				x1 = i % n
 				y1 = int((pow(n,2) - 1 - i) / n)
