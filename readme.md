@@ -1,7 +1,5 @@
-# A naive implementation of the A* Search Algorithm
+# An implementation of the A* Search Algorithm
 ### for solving 8-puzzle problem
-
-```python node_a8.py```
 
 ### The initial state is:
 7 4 5
@@ -12,4 +10,10 @@
 1 2 3
 4 5 6
 7 8 *
+
+### Usage:
+```python node_a8.py```
+
++ The program prints each path of expansion until the goal state is found
++ Then it prints the optimal path in to reach the goal state
 
