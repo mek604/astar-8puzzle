@@ -1,8 +1,7 @@
 # A naive implementation of the A* Search Algorithm
 ### for solving 8-puzzle problem
 
-+ work-in-progress
-+ the algorithm is inefficient
+```python node_a8.py```
 
 ### The initial state is:
 7 4 5
